@@ -129,8 +129,8 @@ Joining Denny's and states
 
 ```{r}
 dn %>%
-  count(state) %>%
-  inner_join(states, by = c("state" = "abbreviation"))
+count(state) %>%
+inner_join(states, by = c("state" = "abbreviation"))
 ```
 
 Joining La Quinta's and states
